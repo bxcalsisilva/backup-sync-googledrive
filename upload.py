@@ -160,6 +160,8 @@ class Upload:
                 self.copied_paths.append(dir)
 
         # Remove duplicates
+        # Case: No internet connection in previous run and a file is modified
+        # It was no uploaded and then modified again and recorded in backup_paths.txt
         self.copied_paths = list(dict.fromkeys(self.copied_paths))
         # Sort
         self.copied_paths.sort()
