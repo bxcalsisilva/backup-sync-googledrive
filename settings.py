@@ -1,9 +1,9 @@
 class Settings:
     def __init__(self) -> None:
         # Source folder to backup
-        self.src = "/home/bcalsi/github/pv-system-sync/test/pc1/PUCP"
+        self.src = "/home/bcalsi/github/backup-sync-googledrive/test/pc1/PUCP"
         # Destiny folder to copy files to
-        self.dst = "/home/bcalsi/github/pv-system-sync/test/pc2/PUCP"
+        self.dst = "/home/bcalsi/github/backup-sync-googledrive/test/pc2/PUCP"
 
         # File to write backuped files and which to upload
         # Don't change the filename
